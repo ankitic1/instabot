@@ -1,1 +1,2 @@
-#main.py file initiated
+#main.py file init
+from self_info import self_info
