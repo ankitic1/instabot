@@ -17,13 +17,19 @@ def self_info():
             print('Followed By  : %s' % (user_info['data']['counts']['followed_by']))
             print('Follows      : %s' % (user_info['data']['counts']['follows']))
             print('Total Posts  : %s' % (user_info['data']['counts']['media']))
-    
+
             if user_info['data']['website'] != '':      # Website of the user is given
                 print('Website      :%s' % (user_info['data']['website']))
+            else:
+                print("website is not provided by user")
             if user_info['data']['bio'] != '':          # Bio of the user is given
-                print('Bio          :%s' % (user_info["data"]["bio"]))
-    
+                    print('Bio :%s' % (user_info["data"]["bio"]))
+            else:
+                print(" bio is not provided by user")
+
+
         else:
-            print('User does not exist!',)
+                print('User does not exist!',)
     else:
         print('Status code other than 200 received!')
+self_info()
