@@ -1,0 +1,1 @@
+# Function declaration to get the recent post of a user by username
