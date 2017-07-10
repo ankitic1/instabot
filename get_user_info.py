@@ -1,6 +1,6 @@
 import requests
 from constants import base_url,app_access_token
-from get_user_id import*
+from get_user_id import get_user_id
 # Function declaration to get the info of a user by username
 def get_user_info(insta_username):
     user_id = get_user_id(insta_username)       # Calling the function get_user_id to get a user_id
