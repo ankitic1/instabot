@@ -9,7 +9,7 @@ def word_search_in_comment(insta_username,option,post_select):
     url_post_comment = base_url + "media/" + media_id + "/comments?access_token=" + app_access_token
     all_comments = requests.get(url_post_comment).json()
     search_word = raw_input("Enter a word you want to search in the comments")
-    print "\n<>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<>"
+    print "\n....."
     comments_id = []
     list_of_comments = []
     user_name = []
