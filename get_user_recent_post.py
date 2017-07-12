@@ -2,6 +2,7 @@ import requests
 from constants import base_url,app_access_token
 import urllib
 from get_user_id import get_user_id
+
 # Function declaration to get the recent post of a user by username
 def get_user_recent_post(insta_username):
     user_id = get_user_id(insta_username)
