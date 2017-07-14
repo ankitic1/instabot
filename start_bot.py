@@ -111,4 +111,3 @@ def start_bot():
             print "For any queries contact at chndelankit89@gmail.com"
             print "Thank You have a nice day!"
             exit()
-start_bot()

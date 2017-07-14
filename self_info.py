@@ -32,4 +32,3 @@ def self_info():
                 print('User does not exist!',)
     else:
         print('Status code other than 200 received!')
-self_info()
